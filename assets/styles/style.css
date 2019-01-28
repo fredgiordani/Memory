@@ -1,0 +1,61 @@
+body{
+    height:100vh;
+}
+
+.container{
+    
+    height:200px;
+}
+
+.img-thumbnail{
+    width:200px;
+    
+         
+}
+
+.content_1, .content_2, .content_3, .content_4{
+    display: flex;
+    padding:0px;
+    
+}
+
+
+
+
+.picture{
+    width:200px;
+    height:200px;
+    position:absolute;
+}
+
+.riddler{
+    width:200px;
+    height:200px;
+    display:block;
+    position:relative;
+    border: 2px solid black;
+    padding:0px;
+   
+}
+
+#game{
+    width:1000px;
+    background-image: url('../images/tableau/983247.jpg');
+    background-repeat: no-repeat;
+    box-sizing: content-box;
+}
+
+
+
+.player_1{
+    width:15%;
+}
+
+.player_2{
+    width:15%;
+}
+
+.comment{
+    height:70px;
+    text-align:center;
+}
